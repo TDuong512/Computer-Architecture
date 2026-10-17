@@ -34,7 +34,7 @@ tinhtoan :
     la   $s2, dungluong    # Con tro mang dung luong
     la   $s3, giatien        # Con tro mang don gia
 Loop :
-	blez $t4,outloop	# ddieu kien thoat khoi vong lap
+
 	lw $t1,0($s2)	#dung luong
 	lw $t2,0($s3)	#gia tien
 	#so sanh xem lieu day la bac cuoi hay chua
