@@ -5,7 +5,7 @@
 
 .data
 a:          .word 0        # tham so dich cao do (0 = giu nguyen)
-thoiluong:  .word 150     # ms cho moi don vi
+thoiluong:  .word 225     # ms cho moi don vi
 instrument: .word 60
 
 cao_do:
